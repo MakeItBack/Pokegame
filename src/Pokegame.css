@@ -1,0 +1,16 @@
+.Pokegame-winner {
+   animation: winText 1s linear infinite;
+}
+
+@keyframes winText {
+   25% {
+      transform: rotate(-5%);
+   }
+   50% {
+      transform: scale(1.2);
+      filter: brightness(150%);
+   }
+   75% {
+      transform: rotate(5%);
+   }
+}
